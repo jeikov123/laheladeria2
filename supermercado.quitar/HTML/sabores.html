@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saboreas</title>
+    <link rel="stylesheet" href="../CSS/sabores.css">
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body>
+    <header>
+        <a href='/'><img src="/laheladeria/logo.png" alt="logo" id="logoI"></a>
+        <button class="hamburger" id="hamburger-btn">&#9776;</button> <!-- Botón del menú hamburguesa -->
+        <nav id="navbar">
+          <button id="theme-toggle" class="theme-toggle">Modo Oscuro</button>
+          <a href='/'>Inicio</a>
+          <a href='/supermercado/HTML/acercade.html' id='acercade-link'>Acerca de</a>
+          <a href='/supermercado/HTML/contactos.html' id='contactos-link'>Contactos</a>
+          <a href='/supermercado/HTML/ubicacion.html' id='ubicacion-link'>Ubicación</a>
+          <a href='/supermercado/HTML/historial.html' id='historial-link' style='display:none;'>Ver Compras</a>
+          <a href='/supermercado/HTML/admin.html' id='productos-link'>Productos</a>
+          <a href='/supermercado/HTML/login.html' id='login-link'>Iniciar Sesión</a>
+          <a href='/supermercado/HTML/register.html' id='register-link'>Registrar</a>
+          <span id="welcome-message" style="display:none;"></span>
+          <a href="#" id="logout-link" style="display:none;">Cerrar Sesión</a>
+          <button id="cart-btn">Carrito (0)</button>
+        </nav>
+      </header>
+        <h1>Saboras</h1>
+        <p>Descubre los sabores del mundo.</p>
+   
+    
+    <main>
+        <section id="sabores">
+            <h2>Sabores Destacados</h2>
+            <ul>
+                <li>Chocolate</li>
+                <li>Vainilla</li>
+                <li>Fresa</li>
+                <li>Caramelo</li>
+                <li>Menta</li>
+            </ul>
+        </section>
+        
+        <section id="sugerencias">
+            <h2>¿Cuál es tu sabor favorito?</h2>
+            <input type="text" id="saborInput" placeholder="Escribe tu sabor aquí...">
+            <button id="saborButton">Enviar</button>
+            <p id="mensaje"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 laheladeria. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="sabores.js"></script>
+</body>
+</html>

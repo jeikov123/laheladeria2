@@ -1,0 +1,66 @@
+/* Contenedor de las tarjetas */
+#user-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  /* Estilo para cada tarjeta de usuario */
+  .user-card {
+   /* background-color: #f9f9f9;                //se usa bot+on con paleta de colores*/
+    border-radius: 8px;
+    padding: 1rem;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Botones en cada tarjeta */
+  .user-card-buttons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .edit-btn, .delete-btn {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .edit-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  #messages-container {
+   margin-top: 20px;
+ }
+ 
+ .message {
+   border: 1px solid #ddd;
+   padding: 10px;
+   margin-bottom: 10px;
+ }
+ 
+ h3 {
+   margin: 0;
+ }
